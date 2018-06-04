@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1005.0" style="-fx-background-color: #e6e6e6; -fx-background-radius: 20px; -fx-border-radius: 20px;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="785.0" layoutY="100.0" prefHeight="564.0" prefWidth="220.0" style="-fx-background-color: #A2C9E3; -fx-background-radius: 0 0 20px 0;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="38.0" prefHeight="16.0" prefWidth="209.0" text="مشاريع أكتب كود">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton alignment="CENTER_RIGHT" layoutY="76.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="قائمة المشاريع" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" glyphName="RECYCLE" layoutX="182.0" layoutY="107.0" size="20" />
+            <JFXButton alignment="CENTER_RIGHT" layoutY="122.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="أعضاء المشاريع" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" glyphName="RECYCLE" layoutX="182.0" layoutY="153.0" size="20" />
+            <JFXButton alignment="CENTER_RIGHT" layoutY="168.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="المشاريع المفتوحة" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" glyphName="RECYCLE" layoutX="182.0" layoutY="199.0" size="20" />
+            <JFXButton alignment="CENTER_RIGHT" layoutY="214.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="المشاريع المكتملة" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" glyphName="RECYCLE" layoutX="181.0" layoutY="245.0" size="20" />
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="276.0" prefHeight="16.0" prefWidth="209.0" text="القائمة بكل المشاريع">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton alignment="CENTER_RIGHT" layoutY="314.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="القائمة الأولى" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="CENTER_RIGHT" layoutY="360.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="القائمة الثانية" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="CENTER_RIGHT" layoutY="406.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="القائمة الثالثة" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="CENTER_RIGHT" layoutY="452.0" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #89bbdc;" text="القائمة الثالثة" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="182.0" layoutY="343.0" size="20" />
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="182.0" layoutY="389.0" size="20" />
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="182.0" layoutY="434.0" size="20" />
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="181.0" layoutY="480.0" size="20" />
+            <JFXButton layoutX="31.0" layoutY="512.0" prefHeight="0.0" prefWidth="163.0" style="-fx-background-color: #89bbdc; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="تسجيل الخروج">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane prefHeight="100.0" prefWidth="1005.0" style="-fx-background-radius: 20px 20px 0 0; -fx-border-radius: 20px 20px 0 0;" styleClass="head-color" stylesheets="@style.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="108.0" layoutX="850.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/1.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="12.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/close.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="621.0" layoutY="60.0" text="أكتب كود لعلوم الحاسب الآلى" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="72.0" text="www.aktbcode.com" textFill="#4502fc">
+               <font>
+                  <Font name="Kill your darlings AC" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="100.0" prefHeight="33.0" prefWidth="786.0">
+         <children>
+            <Label layoutX="568.0" layoutY="1.0" text="( مشاريع تحت التنفيذ 20 )">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="341.0" layoutY="1.0" text="( مشاريع معلقة 20 )">
+               <font>
+                  <Font name="Droid Arabic Kufi" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="114.0" layoutY="1.0" text="( مشاريع مكتملة 20 )">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </Pane>
+      <Separator layoutX="20.0" layoutY="132.0" opacity="0.43" prefHeight="4.0" prefWidth="746.0" />
+      <ScrollPane layoutY="135.0" prefHeight="528.0" prefWidth="786.0">
+         <content>
+            <VBox prefHeight="589.0" prefWidth="768.0" spacing="20.0">
+               <children>
+                  <AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="688.0" style="-fx-background-color: #DDD; -fx-background-radius: 20px; -fx-border-radius: 20px;">
+                     <children>
+                        <ImageView layoutX="536.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/project.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="390.0" layoutY="6.0" text="مشروع تحت الأنشاء">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="392.0" layoutY="35.0" text="تم الانشاء بتاريخ 1 / 6 / 2018">
+                           <font>
+                              <Font name="Droid Arabic Kufi" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="72.0" layoutY="6.0" text="أسم صاحب المشروع" textFill="#4607f5">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="32.0" text="جمهورية مصر العربية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="39.0" layoutY="66.0" opacity="0.59" prefHeight="3.0" prefWidth="528.0" />
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="473.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="الميزانية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="مدة التنفيذ">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="عدد العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="475.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="متوسط العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="100$ - 250$">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="7 أيام">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="10 عروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="100 $">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="219.0" prefHeight="34.0" prefWidth="499.0" text="لمتابعة تنفيذ المشروع ومتابعة الخطط المقدمة من الأعضاء .. أضغط هنا" textFill="#3e06f8">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <VBox.margin>
+                        <Insets left="80.0" right="80.0" top="10.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="688.0" style="-fx-background-color: #DDD; -fx-background-radius: 20px; -fx-border-radius: 20px;">
+                     <children>
+                        <ImageView layoutX="536.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/project.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="390.0" layoutY="6.0" text="مشروع تحت الأنشاء">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="392.0" layoutY="35.0" text="تم الانشاء بتاريخ 1 / 6 / 2018">
+                           <font>
+                              <Font name="Droid Arabic Kufi" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="72.0" layoutY="6.0" text="أسم صاحب المشروع" textFill="#4607f5">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="32.0" text="جمهورية مصر العربية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="39.0" layoutY="66.0" opacity="0.59" prefHeight="3.0" prefWidth="528.0" />
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="473.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="الميزانية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="مدة التنفيذ">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="عدد العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="475.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="متوسط العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="100$ - 250$">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="7 أيام">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="10 عروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="100 $">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="219.0" prefHeight="34.0" prefWidth="499.0" text="لمتابعة تنفيذ المشروع ومتابعة الخطط المقدمة من الأعضاء .. أضغط هنا" textFill="#3e06f8">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <VBox.margin>
+                        <Insets left="80.0" right="80.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="688.0" style="-fx-background-color: #DDD; -fx-background-radius: 20px; -fx-border-radius: 20px;">
+                     <children>
+                        <ImageView layoutX="536.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/project.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="390.0" layoutY="6.0" text="مشروع تحت الأنشاء">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="392.0" layoutY="35.0" text="تم الانشاء بتاريخ 1 / 6 / 2018">
+                           <font>
+                              <Font name="Droid Arabic Kufi" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="72.0" layoutY="6.0" text="أسم صاحب المشروع" textFill="#4607f5">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="32.0" text="جمهورية مصر العربية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="11.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="39.0" layoutY="66.0" opacity="0.59" prefHeight="3.0" prefWidth="528.0" />
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="473.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="الميزانية">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="مدة التنفيذ">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="474.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="عدد العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="475.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="متوسط العروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="84.0" prefHeight="30.0" prefWidth="98.0" text="100$ - 250$">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="117.0" prefHeight="30.0" prefWidth="98.0" text="7 أيام">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="150.0" prefHeight="30.0" prefWidth="98.0" text="10 عروض">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="359.0" layoutY="179.0" prefHeight="30.0" prefWidth="98.0" text="100 $">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="219.0" prefHeight="34.0" prefWidth="499.0" text="لمتابعة تنفيذ المشروع ومتابعة الخطط المقدمة من الأعضاء .. أضغط هنا" textFill="#3e06f8">
+                           <font>
+                              <Font name="Droid Arabic Kufi Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <VBox.margin>
+                        <Insets left="80.0" right="80.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
